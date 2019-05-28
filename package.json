@@ -1,0 +1,31 @@
+{
+  "name": "meetup-simplifying-forms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dmiller9911/meetup-simplifying-forms.git",
+  "author": "Doug Miller <doug@dougmiller.io>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --env.prod",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.18",
+    "@types/react-dom": "^16.8.4",
+    "@types/styled-components": "^4.1.15",
+    "@types/webpack": "^4.4.31",
+    "@types/yup": "^0.26.13",
+    "formik": "^2.0.1-rc.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0",
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1",
+    "yup": "^0.27.0"
+  }
+}
